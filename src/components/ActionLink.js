@@ -27,7 +27,7 @@ export default class ActionLink extends React.Component {
         }
 
         return (
-            <Link href={withPrefix(url)} {...attrs} className={classes}>
+            <Link href={withPrefix(url)} {...attrs} className={classes} data-hi="hi">
                 {style === 'icon' ? (
                     <React.Fragment>
                         <Icon icon={icon} />
